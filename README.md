@@ -4,4 +4,4 @@
 <h4>Pure HTML, CSS, and JS.</h4>
 <h4>Open index.html to browser and upload your images to test!</h4>
 </p>
-<img src="https://github.com/wongsenoch/Image-Classifier-Web/blob/master/illustration.png" alt="drawing" height="300"/>
+<img src="https://github.com/wongsenoch/Image-Classifier-Web/blob/master/illustration.png" alt="drawing" height="300" style={margin: 0 auto;}/>
