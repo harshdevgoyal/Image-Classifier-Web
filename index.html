@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Image Classifier</title>
+    <!-- Load the latest version of TensorFlow.js -->
+    <script src="https://unpkg.com/@tensorflow/tfjs@1.2.8/dist/tf.min.js"></script>
+    <script src="https://unpkg.com/@tensorflow-models/mobilenet@2.0.4/dist/mobilenet.min.js"></script>
+
+    <link rel='stylesheet' href='styles.css'/>
+  </head>
+  <body>
+
+    <div class="page">
+      <div class="section header">
+        <h3>Image Classifier</h3>
+      </div>
+      <div class="section upload">
+        <!-- input is replaced by <label> for styling-->
+        <input type="file" id="file" accept="image/*" onchange="loadFile(event)" style="display: none;"/>
+        <label class="upload-button" for="file">Upload Your Image Here</label>
+      </div>
+      <div class="section img-display">
+        <!-- element for img display -->
+        <img id="img-output"/>
+      </div>
+      <div class="section submit">
+        <!-- element to trigger classification js function -->
+        <input type="submit" value="Classify This Image" id="classify"/>
+      </div>
+      <div class="section response">
+        <!-- display prediction -->
+        <div id="answer"></div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
