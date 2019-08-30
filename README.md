@@ -1,7 +1,6 @@
 # Image-Classifier-Web
 
-A simple web interface for image classification using mobilenet model from Tensorflow.js.<br/>
-Pure HTML, CSS, and JS.  
+A simple web interface for image classification using mobilenet model from Tensorflow.js.<br/> 
 Open index.html to browser and upload your images to test!  <br/>
 
 
