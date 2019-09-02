@@ -5,5 +5,5 @@ Open index.html in browser and upload your images to test!  <br/>
 
 
 <p align="left"> 
-<img src="https://github.com/wongsenoch/Image-Classifier-Web/blob/master/illustration.png" alt="drawing" height="500"/>
+<img src="https://github.com/harshdevgoyal/tensorflow.js-image-classifier/blob/master/demo.PNG" height="500"/>
 </p>
